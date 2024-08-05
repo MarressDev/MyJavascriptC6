@@ -1,0 +1,137 @@
+=
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+</head>
+
+<body>
+
+    <!-- Code snippet for new modal window  -->
+    <header>
+        <div class="content-container">
+            <h1>Password Generator</h1>
+            <p>
+        
+            </p>
+            <button class="cta-btn" id="open">Generate Password</button>
+        </div>
+    </header>
+
+
+    <section class="modal-container" id="modal">
+        <section class="modal">
+            <button class="close-btn" id="close">x</button>
+            <div class="modal-content">
+                <h1>Select Password Criteria</h1>
+                <form class="modal-form">
+                    <div>
+
+                        <label for="name">Atleast 1 lowercase character
+                            <input type="checkbox" id="name" class="form-input" placeholder="EnterName">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">Atleast 1 uppercase character
+                            <input type="checkbox" id="email" class="form-input" placeholder="EnterEmail">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="password">Atleast 1 digit
+                            <input type="checkbox" id="password" class="form-input" placeholder="EnterPassword">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="password2">Atleast 1 special character
+                            <input type="checkbox" id="password2" class="form-input" placeholder="EnterPassword">
+                        </label>
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn" onclick="submitAnswers()">
+                </form>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- End of code snippet for new modal window -->
+
+    <!-- <div class="header"> -->
+    <!-- <h1>Password Generator</h1> -->
+    <!-- </div> -->
+
+    <!-- <div class="parent"> -->
+    <!-- <div class="toppassboxborder"> -->
+    <!-- <h2>Generate a Password</h2> -->
+    <!-- </div> -->
+
+    <!-- <div class="child"> -->
+    <!-- <p>Your secure password</p> -->
+    <!-- </div> -->
+    <!-- <div class="buttondiv"> -->
+    <!-- <p>Button Div</p> -->
+    <!-- <button class="cta-btn" id="open">Generate Password</button> -->
+    <!-- </div> -->
+    <!-- <div class="bottompassboxborder"> -->
+    <!-- <p>This is bottom border</p> -->
+    <!-- </div> -->
+    <!-- </div> -->
+
+
+
+
+    <!-- Code Snippet for modal window Original -->
+
+
+    <!-- <h2>Modal Example</h2> -->
+
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <!-- <div id="myModal" class="modal"> -->
+
+    <!-- Modal content -->
+    <!-- <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Select the criteria that your generated password should contain</p>
+    <input type="checkbox">Atleast 1 uppercase character</input>
+    <input type="checkbox">Atleast 1 lowercase character</input>
+    <input type="checkbox">Atleast 1 digit</input>
+    <input type="checkbox">Atleast 1 special character</input>
+  </div> -->
+
+    <!-- </div> -->
+
+    <!-- The Modal -->
+
+    <!-- <h2>Modal Example2</h2> -->
+
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn2">Open Modal</button> -->
+
+    <!-- <div id="myModal2" class="modal2"> -->
+
+    <!-- Modal content -->
+    <!-- <div class="modal-content2">
+      <span class="close2">&times;</span>
+      <p>Select your desired password length. A minimum of 8 characters is required.</p>
+      <input type="checkbox">No more than 8</input>
+      <input type="checkbox">No more than 24</input>
+      <input type="checkbox">No more than 64</input>
+      <input type="checkbox">No more than 128</input>
+    </div>
+  
+  </div>
+   -->
+
+    <!-- End of code snippet for modal window original -->
+
+
+</body>
+
+</html>

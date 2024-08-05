@@ -1,0 +1,201 @@
+:root {
+    --modal-duration: 1s;
+}
+
+* {
+box-sizing: border-box;
+
+}
+
+body {
+font-family: sans-serif;
+margin: 0;
+transition: transform 0.3s ease;
+}
+
+.content-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* .header {
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    background: white;
+    color: black;
+    /* border: 3px solid black; */
+/* } */
+
+/* .header h1 {
+    font-size: 40px;
+} */
+
+.parent {
+    display: flex;
+    margin: auto;
+    box-shadow: 10px 10px 10px lightgrey;
+    /* position: relative; */
+    width: 600px;
+    height: 290px;
+    /* vertical-align: top; */
+    text-align: left;
+    /* justify-content: center; */
+    background: white;
+    color: black;
+    border: 1px solid lightgray; 
+}
+.toppassboxborder {
+    border-bottom: 1px solid lightgrey;
+    width: 525px;
+    height: 70px;
+    text-align: left;
+    position: absolute;
+    vertical-align: middle;
+    top: 30%;
+    left: 36%;
+    margin: -50px 0 0 -50px;
+}
+
+.bottompassboxborder {
+border-top: 1px solid lightgrey;
+width: 525px;
+height: 70px;
+vertical-align: middle;
+position: absolute;
+top: 58.5%;
+left: 36%;
+margin: -50px 0 0 -50px; 
+}
+
+.child {
+    border: 1px dashed gray;
+    width: 500px;
+    height: 90px;
+    top: 35%;
+    left: 42%;
+    margin: 0 0 0 -140px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+.generatebtn {
+    background-color: rgba(175, 4, 4, 0.915);
+    color: white;
+    border: none;
+    top: 30%;
+    left: 3%;
+    width: 180px;
+    position: absolute;
+    border-radius: 24px;
+    padding: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.buttondiv {
+    vertical-align: bottom;
+    text-align: center;
+    /* border: solid black; */
+    position: relative;
+    width: 190px;
+    height: 70px;
+    top: 104%;
+    left: 48%;
+    margin: -90px 0 0 -80px;
+
+}
+
+/* Additional items below this line for modal window code */
+
+/* The Modal (background) */
+/* .modal { */
+    /* display: none; Hidden by default */
+    /* position: fixed; Stay in place */
+    /* z-index: 1; Sit on top */
+    /* padding-top: 100px; Location of the box */
+    /* left: 0; */
+    /* top: 0; */
+    /* width: 100%; Full width */
+    /* height: 100%; Full height */
+    /* overflow: auto; Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+  /* } */
+  
+  /* Modal Content */
+  /* .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  } */
+  
+  /* The Close Button */
+  /* .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } */
+/*   
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+
+  /* The Modal (background) */
+/* .modal2 { */
+    /* display: none; Hidden by default */
+    /* position: fixed; Stay in place */
+    /* z-index: 1; Sit on top */
+    /* padding-top: 100px; Location of the box */
+    /* left: 0; */
+    /* top: 0; */
+    /* width: 100%; Full width */
+    /* height: 100%; Full height */
+    /* overflow: auto; Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+  /* } */
+  
+  /* Modal Content */
+  /* .modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  } */
+  
+  /* The Close Button */
+  /* .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } */
+  
+  /* .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+
+
+  /* End of code block for modal window */
+  
